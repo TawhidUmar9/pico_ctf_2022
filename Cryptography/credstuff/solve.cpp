@@ -8,23 +8,16 @@ int main()
     usernames.open("usernames.txt");
     std::string username, password;
     int found = 0;
-    while(true)
+    int c =500;
+    while(c--)
     {   
         std::getline(usernames,username);
         if(usernames.eof() )
             break;
-        
-        if(username == "cultiris")
-        {
-            std::cout<<"cultiris"<<std::endl;
-            found = 1;            
-        }
-        
+
+        std::cout<<username<<" ";
         std::getline(passwords, password);
-        if(found == 1)
-        {
             std::cout<<password<<std::endl;
-        }
     }
     passwords.close();
     usernames.close();

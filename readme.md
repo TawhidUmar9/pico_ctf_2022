@@ -6,7 +6,7 @@ Steps that are basically taken in order to solve the various category of problem
 
 -> Reverse Engineering:
 
-    Strings commnad.
+    Strings command.
 
 -> Binary Exploitation:
 
@@ -15,3 +15,4 @@ Steps that are basically taken in order to solve the various category of problem
 -> Crypto:
 
     Rot13.
+    For substitution cipher, quipqiup.com
